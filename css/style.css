@@ -1,0 +1,181 @@
+/*GLOBAL*/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: #3ca8c4;
+}
+
+body {
+	background: #b9b9ad;
+	margin:0;
+}
+
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* CLEAR FIX */
+.wrapper:after {
+    content:"";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+/*STARTS INVISIBLE*/
+.words_form, .text, #showinstructions, #quitgame {
+	display: none;
+}
+
+/*FONTS*/
+body, nav div, .submit {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+.blank {
+	font-family: 'Reenie Beanie', cursive;
+}
+
+
+/*HEADER*/
+header {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: #3ca8c4;
+}
+
+	.title {
+		float: left;
+	}
+
+		h1 {
+			font-size: 3em;
+			margin: 0;
+			padding: 0;
+		}
+
+		h4 {
+			text-transform: uppercase;
+			margin-top: -0.05em;
+			font-weight: normal;
+		}
+
+/*NAV*/
+	nav div {
+		float: left;
+		background-color: #80d961;
+		font-size: 2em;
+		border-radius: 10px;
+		margin-left: 10%;
+		padding: 0.5em 1em;
+	}
+
+
+
+/*CONTENT FORMATTING*/
+.content {
+	min-height: 100px;
+	margin: 5px 0;
+/*	background: #47c7ea;
+*/	background-color: #47c7ea;
+	background-image: url(../images/crossword.png);
+
+}
+
+/*INSTRUCTIONS*/
+.instructions {
+	padding: 2em 0;
+}
+
+/*POP-UP FORMATTING*/
+.words_form, .text {
+	background: #f5866c;
+	padding: 1em 2em;
+	margin: 3em 0;
+	border-radius: 10px;
+	max-width: 1200px;
+	float: left;
+
+}
+
+
+
+/*FORM*/
+
+label span {
+	width: 9em;
+	float: left;
+	text-align: right;
+	margin-right: 0.8em;
+	display: block;
+	text-transform: uppercase;
+/*	clear: left;
+*/}
+
+label p{
+	padding-bottom: 0.4em;
+}
+
+
+.submit {
+	margin: 0 auto;
+	display: block;
+	font-size: 1.5em;
+}
+
+
+
+/*TEXT*/
+
+.blank {
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+
+/*FOOTER*/
+footer {
+	padding-top: 3em;
+	background: #3ca8c4;
+	clear: both;
+
+}
+
+/**************************/
+/**************************/
+/**************************/
+/***RESPONSIVE***/
+
+@media screen and (max-width: 1250px) {
+
+	nav div {
+		font-size: 1.5em;
+		margin-left: 5%;
+		padding: 0.5em;
+	}
+}
+
+@media screen and (max-width: 850px) {
+
+	nav div {
+		font-size: 1em;
+		margin-top: 1em;
+	}
+
+@media screen and (max-width: 550px) {
+	nav { 
+		float: left;
+		clear: left;
+	}
+
+	nav div {
+		margin: 0 0.5em 0.5em 0;
+	}
+}
+
