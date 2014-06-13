@@ -1,5 +1,5 @@
 #Wordly!
-Found live at: [http://www.catherinegoneill.com/wordly/index.html](http://www.catherinegoneill.com/wordly/index.html)
+Found live at: [http://projects.catherinegoneill.com/wordly/index.html](http://projects.catherinegoneill.com/wordly/index.html)
 
 ###GENERAL INFO
 This is a simple game inspired by MadLibs.  It's a single-page application.  The stories are contained within the HTML.  The stories are chosen randomly each time the player starts a new game.  The form is then created via jQuery for each game.  Prior to the creation of the form, it is a completely empty div in the html.  After the player completes the form, the submissions are temporarily saved in an array and then inputted into the story.
